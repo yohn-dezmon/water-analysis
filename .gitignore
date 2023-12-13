@@ -1,1 +1,2 @@
 water-rust/target/*
+postgres-db/.env
