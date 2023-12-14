@@ -9,4 +9,6 @@
 
 # `ogr2ogr` utility 
 
-
+```
+ogr2ogr -f "PostgreSQL" PG:"dbname=mydatabase user=myuser password=mypassword" -nln target_table_name mygeopackage.gpkg
+```
